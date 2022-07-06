@@ -13,6 +13,7 @@ A Firewall can be implemented as software or it can be a hardware that basically
 ## WHAT FIREWALL DOES?
 
 Firewalls act as a filter between a home network and the Internet. User can configure in its own way whatinformation he wants to get away and what he wants to get inside. All the other stuff is not permitted.There are various different approaches or techniques firewalls use to filter traffic, and some of them are used together. These techniques function at various levels of a network, which decides how proper the filtering options can be at each level. Firewalls can be utilized in various techniques to provide security to your home network or business.
+
 ---
 ## WHAT  DOES A FIREWALL NOT DO
 
@@ -28,13 +29,17 @@ Firewalls act as a filter between a home network and the Internet. User can conf
 ---
  ### 1)Packet Filtering Firewall
 
-This technique is based on most fundamental and oldest type of firewall model. Packet-filtering firewalls essentially make a checkpoint at a traffic switch or router. The firewall directly check the information packets passing through router or switch for example, the source and destination IP address, packet number, port number, and other data without opening up the packet to investigate its information. It works on network layer of network model. This technique applies a lot of principles on every packet and dependent on the result,chooses to either transfer or dispose of the packet. For instance, a rule could determine to hinder all  approaching traffic from a specific IP address or deny all traffic that utilizes UDP protocol. In the event that there is no match with any predefined rules, it will make default move. The default activity can be to 'dispose everything’ or to 'acknowledge all packets'.
+This technique is based on most fundamental and oldest type of firewall model. Packet-filtering firewalls essentially make a checkpoint at a traffic switch or router. The firewall directly check the information packets passing through router or switch for example, the source and destination IP address, packet number, port number, and other data without opening up the packet to investigate its information. It works on network layer of network model. This technique applies a lot of principles on every packet and dependent on the result,chooses to either transfer or dispose of the packet. For instance, a rule could determine to hinder all  approaching traffic from a specific IP address or deny all traffic that utilizes UDP protocol. In the event that there is no match with any predefined rules, it will make default move. The default activity can be to 'dispose everything’ or to 'acknowledge all packets'.
+
 ---
  ### 2)Application/Proxy Firewall
+ 
 Application firewalls review network packets to check whether data is valid (at the application layer) before allow making a connection. It investigates the data encapsulated in all packets going through network and after that it provides complete connection state. These firewalls also validate other security information like user passwords and service requests. Application or proxy services are used for specific reason in order to control traffic such as FTP or HTTP. These services can provide increased access control , detailed checks needed for data validity, and they can generate summary report about the traffic to identify and track traffic It is otherwise called Proxy server.Application level firewalls can also be implemented as Caching Servers which in way increase the network performance and makes it easier to track traffic.
+
  ---
  ### 3)Hybrid Firewall
 Hybrid firewall is the combination of packet filtering firewall and application/proxy firewall in series, to give a better and stronger level of protection and security to the user.
+
 ---
  ## FIREWALL LIMITATIONS/DISADVANTAGES
 
